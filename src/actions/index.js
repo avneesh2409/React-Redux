@@ -10,8 +10,14 @@ export const decrement = () =>{
         type:'DECREMENT'
     }
 }
+export const isLogged = () =>{
+    return {
+        type:'SIGN_IN'
+    }
+}
 const operation = {
     increment,
-    decrement
+    decrement,
+    isLogged
 }
 export default operation
